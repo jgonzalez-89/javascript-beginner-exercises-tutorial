@@ -1,14 +1,8 @@
 /* Done - check tests and clear for student use */
-
-function startCounting()
-{
-	
-	for(let i = 0; i < 100; i++)
-	{
-		console.log(i);
-	}
-	
-	return i;
+function standardsMaker(){
+    for(let i=1; i<301; i++){
+    console.log("I will write questions if I'm stuck");
+    }
 }
 
-startCounting();
+standardsMaker();

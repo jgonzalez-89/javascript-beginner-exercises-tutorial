@@ -19,7 +19,7 @@ function getColor(colorNumber=0)
 
 function getAllStudentColors(){
 	var students=0
-	while(students<9){
+	while(students<10){
 		students++;
 		var randomloop=Math.floor(Math.random()*4)+1;
 		let exampleColor = getColor(randomloop);
